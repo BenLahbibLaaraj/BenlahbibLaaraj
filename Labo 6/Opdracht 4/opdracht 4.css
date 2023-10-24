@@ -1,0 +1,19 @@
+body {
+    font: 1.1em Verdana;
+    background-color: silver;
+    color: darkblue;
+}
+
+h1 {
+    font-variant: small-caps;
+    background-color: red;
+}
+
+a{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.rand {
+    border: 1px dotted black;
+}

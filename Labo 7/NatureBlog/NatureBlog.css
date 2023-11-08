@@ -1,0 +1,59 @@
+* {
+    font-family: "Verdana", sans-serif;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+section > header {
+    background: url(./Fotos/header.jpg) no-repeat;
+    background-size: cover;
+    height: 17vh;
+}
+
+section > header > h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+header > h1 {
+    font-size: 2em;
+}
+
+nav {
+    background-color: #3e3e3e;
+    padding: 0.5vh 0;
+}
+
+nav > a {
+    padding: 0 0.5vw;
+    color: lightgreen;
+    text-decoration: none;
+}
+
+article {
+    background-color: lightgray;
+}
+
+article > header > h1 {
+    margin: 0.5vh 0;
+    padding: 3vh 0;
+    color: black;
+    text-decoration: underline;
+}
+
+article > p {
+    padding: 0 0.5vw;
+}
+
+article > footer {
+    padding: 0 0.5vw 0.5vh;
+}
+
+body > section > footer {
+    margin: 0.5vh 0 5vh;
+}

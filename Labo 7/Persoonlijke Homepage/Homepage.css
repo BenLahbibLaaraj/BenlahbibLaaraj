@@ -1,0 +1,67 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Header stijl */
+header {
+    background-color: #0074b3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Sectie stijl */
+section {
+    margin: 20px;
+}
+
+/* Lijst stijl in sectie */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Link stijl */
+a {
+    color: #0074b3;
+    text-decoration: none;
+}
+
+/* Zijbalkstijl */
+aside {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Tabelstijl */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0074b3;
+    color: #fff;
+}
+td, th {
+    border: 2px solid black;
+}

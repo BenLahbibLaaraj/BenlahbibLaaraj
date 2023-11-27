@@ -1,0 +1,38 @@
+/* Algemene opmaak voor alle artikels */
+article {
+    margin-bottom: 10px; /* Ruimte onder elk artikel */
+    border: 1px solid black; /* Zwarte rand om elk artikel */
+    padding: 10px; /* Ruimte binnen de rand van elk artikel */
+    overflow: auto; /* Om correct met floating om te gaan */
+}
+
+h2 {
+    font-size: 1.50em; /* Lettergrootte voor koppen */
+}
+
+p {
+    font-size: 1.25em; /* Lettergrootte voor tekst */
+}
+
+/* Plaats afbeeldingen bij even en oneven artikels */
+article:nth-child(even) img {
+    float: left;
+    margin-right: 10px; /* Ruimte tussen afbeelding en tekst */
+}
+
+article:nth-child(odd) img {
+    float: right;
+    margin-left: 10px; /* Ruimte tussen afbeelding en tekst */
+}
+
+/* Zorg voor duidelijke opmaak na de floated images */
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Marges rondom het main element */
+main {
+    margin: 10px;
+}

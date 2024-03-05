@@ -4,18 +4,18 @@ const setup = () => {
     let i = 0;
     let count = 0;
 
-    //Eerste manier indexOf
+
     while (i !== -1) {
         i = origineleString.toLowerCase().indexOf("an", i);
         if (i !== -1) {
             count++;
-            i += 2; //an is twee letters
+            i += 2;
         }
     }
 
     console.log(count);
 
-    //Tweede manier lastIndexOf
+
     count = 0;
     i = origineleString.toLowerCase().lastIndexOf("an");
 

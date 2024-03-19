@@ -10,3 +10,15 @@
 <script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
 </body>
 </html>
+document.getElementById("ei").addEventListener("change", function() {
+const selectedValue = this.value;
+const imgElement = document.getElementById("img");
+const noteElement = document.getElementById("note");
+
+// Reset eerst de afbeelding en de notitie
+imgElement.innerHTML = "";
+noteElement.innerHTML = "";
+
+// Controleer de gemaakte keuze en voeg de juiste afbeelding toe
+if (selectedValue === "1") {
+imgElement.innerHTML = '<img src="met_ei.jpg" alt="K
